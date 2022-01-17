@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T08:03:24.484Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="RmWHqMfEqBL7MnH6Pia-" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T08:04:08.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="KFKtDfnaiMSuKuSjUMYk" version="14.4.9" type="github">
   <diagram id="uSX-9S-eXGz2k6nIvwEQ" name="第 1 页">
     <mxGraphModel dx="894" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -150,9 +150,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vnZ6nE50Qv4-x-l0_GSR-95" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="480" y="370" width="160" height="150" as="geometry" />
+          <mxGeometry x="60" y="370" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="vnZ6nE50Qv4-x-l0_GSR-96" value="公司研究报告原始表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="vnZ6nE50Qv4-x-l0_GSR-95">
+        <mxCell id="vnZ6nE50Qv4-x-l0_GSR-96" value="上市公司信息" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="vnZ6nE50Qv4-x-l0_GSR-95">
           <mxGeometry width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="vnZ6nE50Qv4-x-l0_GSR-97" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vnZ6nE50Qv4-x-l0_GSR-96">
