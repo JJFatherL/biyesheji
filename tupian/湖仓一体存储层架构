@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T03:59:04.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="DIKGbPpKK4oGsdwgipeo" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T04:00:40.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="1luY9_dE8MDAuLFpBpeY" version="14.4.9" type="github">
   <diagram id="7Q5p1pTKooCTVA2bEMuN" name="第 1 页">
     <mxGraphModel dx="2183" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -125,6 +125,9 @@
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-49" value="研报结构化模块" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="580" y="290" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="sqgrRpTBGOqpiddp0XIJ-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="sqgrRpTBGOqpiddp0XIJ-55" target="sqgrRpTBGOqpiddp0XIJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-55" value="热点挖掘模块" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="870" y="210" width="40" height="40" as="geometry" />
         </mxCell>
@@ -138,6 +141,9 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="564.9999999999998" y="450" as="sourcePoint" />
             <mxPoint x="565" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="913" y="235" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-67" value="Bronze" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
