@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T03:29:03.967Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="oHELN93IGsY4jt0s0NGo" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-19T03:29:32.081Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="FlwiUOYTOreTLXSbAdNw" version="14.4.9" type="github">
   <diagram id="6hFdmCQeTaRCoXPAwDJg" name="第 1 页">
     <mxGraphModel dx="933" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,16 +35,16 @@
           <mxGeometry x="560" y="200" width="20" height="110" as="geometry" />
         </mxCell>
         <mxCell id="w1Mxv_EWWckMre-zm8aH-18" value="分观点1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="595" y="200" width="60" height="20" as="geometry" />
+          <mxGeometry x="580" y="200" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="w1Mxv_EWWckMre-zm8aH-19" value="分观点2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="595" y="230" width="60" height="20" as="geometry" />
+          <mxGeometry x="580" y="230" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="w1Mxv_EWWckMre-zm8aH-20" value="分观点3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="595" y="260" width="60" height="20" as="geometry" />
+          <mxGeometry x="580" y="260" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="w1Mxv_EWWckMre-zm8aH-21" value="... ..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="605" y="290" width="40" height="20" as="geometry" />
+          <mxGeometry x="590" y="290" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
