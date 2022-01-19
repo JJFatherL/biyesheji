@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T02:23:33.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="14.4.9" etag="v0zca6EK3eZQqQOZcrUN" type="github"><diagram id="6hFdmCQeTaRCoXPAwDJg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-19T03:29:03.967Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="oHELN93IGsY4jt0s0NGo" version="14.4.9" type="github">
+  <diagram id="6hFdmCQeTaRCoXPAwDJg" name="第 1 页">
+    <mxGraphModel dx="933" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w1Mxv_EWWckMre-zm8aH-1" target="w1Mxv_EWWckMre-zm8aH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-1" value="研报结构化模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w1Mxv_EWWckMre-zm8aH-2" target="w1Mxv_EWWckMre-zm8aH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-2" value="券商研究报告PDF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-4" value="研究员信息、评级、评级变动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="160" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="45" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.222;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="w1Mxv_EWWckMre-zm8aH-7" target="w1Mxv_EWWckMre-zm8aH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-7" value="研报结构化内容JSON" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-16" value="标题核心观点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="245" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="20" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-18" value="分观点1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="200" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-19" value="分观点2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="230" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-20" value="分观点3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="260" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w1Mxv_EWWckMre-zm8aH-21" value="... ..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
