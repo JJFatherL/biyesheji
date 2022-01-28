@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T05:25:01.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ISWmb0U4SVgIlK8x3oty" version="16.4.11" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-28T05:42:28.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="X3NPIuczFzNdrOl4pX-o" version="16.4.11" type="github">
   <diagram id="7Q5p1pTKooCTVA2bEMuN" name="第 1 页">
     <mxGraphModel dx="1722" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,10 +8,10 @@
           <mxGeometry x="-30" y="30" width="400" height="470" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-64" value="&lt;font style=&quot;font-size: 20px&quot;&gt;S3/OSS/HDFS（Data Lake）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="410" y="440" width="670" height="60" as="geometry" />
+          <mxGeometry x="410" y="440" width="610" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-63" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="410" y="30" width="670" height="410" as="geometry" />
+          <mxGeometry x="410" y="30" width="610" height="410" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="sqgrRpTBGOqpiddp0XIJ-2" target="sqgrRpTBGOqpiddp0XIJ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -51,11 +51,8 @@
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-3" value="公司研报采集器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="290" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sqgrRpTBGOqpiddp0XIJ-5" value="研究行业" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=5;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#CCCCCC;" parent="1" vertex="1">
-          <mxGeometry x="670" y="175" width="60" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-6" value="概念热度表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#FFD966;" parent="1" vertex="1">
-          <mxGeometry x="965" y="100" width="60" height="50" as="geometry" />
+          <mxGeometry x="900" y="100" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.35;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;strokeWidth=2;" parent="1" source="sqgrRpTBGOqpiddp0XIJ-14" target="sqgrRpTBGOqpiddp0XIJ-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -69,8 +66,14 @@
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-19" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientDirection=north;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lake_formation;labelBackgroundColor=none;gradientColor=#FFFFFF;strokeColor=#CCCCCC;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="441" y="441" width="59" height="59" as="geometry" />
         </mxCell>
+        <mxCell id="ZcKOvhNjRetM8klerIp9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=classic;endFill=1;dashed=1;strokeWidth=2;" edge="1" parent="1" source="sqgrRpTBGOqpiddp0XIJ-27" target="sqgrRpTBGOqpiddp0XIJ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-27" value="行业研报原数据表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;strokeColor=#A18940;" parent="1" vertex="1">
           <mxGeometry x="441" y="115" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcKOvhNjRetM8klerIp9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="sqgrRpTBGOqpiddp0XIJ-29" target="ZcKOvhNjRetM8klerIp9-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-29" value="公司研报原数据表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;strokeColor=#A18940;" parent="1" vertex="1">
           <mxGeometry x="441" y="290" width="60" height="80" as="geometry" />
@@ -78,65 +81,67 @@
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-35" value="&lt;font style=&quot;font-size: 20px&quot;&gt;DeltaLake&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="645" y="30" width="150" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="ZcKOvhNjRetM8klerIp9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.021;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="sqgrRpTBGOqpiddp0XIJ-38" target="sqgrRpTBGOqpiddp0XIJ-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-38" value="研报结构化模块" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="560" y="130" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="sqgrRpTBGOqpiddp0XIJ-42" value="券商研究所" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=5;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#CCCCCC;" parent="1" vertex="1">
-          <mxGeometry x="670" y="90" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sqgrRpTBGOqpiddp0XIJ-66" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sqgrRpTBGOqpiddp0XIJ-64" target="sqgrRpTBGOqpiddp0XIJ-63" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="564.9999999999998" y="450" as="sourcePoint" />
-            <mxPoint x="565" y="60" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="913" y="235" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="570" y="135" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-67" value="Bronze" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="460" y="60" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-68" value="Silver" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="60" width="40" height="20" as="geometry" />
+          <mxGeometry x="715" y="60" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-69" value="Gold" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="975" y="60" width="40" height="20" as="geometry" />
+          <mxGeometry x="910" y="60" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-82" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Data Capture&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="80" y="30" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-88" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="870" y="529.29" as="sourcePoint" />
-            <mxPoint x="910" y="529.6999999999999" as="targetPoint" />
+            <mxPoint x="810" y="509.28999999999996" as="sourcePoint" />
+            <mxPoint x="850" y="509.69999999999993" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-90" value="&lt;b&gt;Spark Structured Streaming&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="520" width="170" height="20" as="geometry" />
+          <mxGeometry x="850" y="500" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sqgrRpTBGOqpiddp0XIJ-91" value="上市公司信息" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=5;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#CCCCCC;" parent="1" vertex="1">
-          <mxGeometry x="670" y="260" width="60" height="50" as="geometry" />
+        <mxCell id="ZcKOvhNjRetM8klerIp9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;entryX=0.502;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" edge="1" parent="1" source="ZcKOvhNjRetM8klerIp9-15" target="ZcKOvhNjRetM8klerIp9-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="735" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="sqgrRpTBGOqpiddp0XIJ-92" value="研究员" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=5;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#CCCCCC;" parent="1" vertex="1">
-          <mxGeometry x="670" y="350" width="60" height="50" as="geometry" />
+        <mxCell id="ZcKOvhNjRetM8klerIp9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.037;entryY=0.587;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="sqgrRpTBGOqpiddp0XIJ-95" target="sqgrRpTBGOqpiddp0XIJ-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sqgrRpTBGOqpiddp0XIJ-95" value="行业研究报告" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=5;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#CCCCCC;" parent="1" vertex="1">
-          <mxGeometry x="770" y="130" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sqgrRpTBGOqpiddp0XIJ-96" value="公司研究报告" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=5;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#CCCCCC;" parent="1" vertex="1">
-          <mxGeometry x="760" y="310" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sqgrRpTBGOqpiddp0XIJ-111" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;labelBackgroundColor=none;fillColor=none;gradientColor=#FFFFFF;rotation=-180;" parent="1" vertex="1">
-          <mxGeometry x="840" y="100" width="20" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="sqgrRpTBGOqpiddp0XIJ-49" value="研报结构化模块" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="560" y="310" width="40" height="40" as="geometry" />
+        <mxCell id="sqgrRpTBGOqpiddp0XIJ-95" value="研报结构化信息表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=5;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="705" y="120" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZcKOvhNjRetM8klerIp9-2" value="行业概念表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#FFD966;" vertex="1" parent="1">
-          <mxGeometry x="965" y="210" width="60" height="50" as="geometry" />
+          <mxGeometry x="900" y="210" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZcKOvhNjRetM8klerIp9-3" value="概念研报索引表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#FFD966;" vertex="1" parent="1">
-          <mxGeometry x="965" y="320" width="60" height="50" as="geometry" />
+          <mxGeometry x="900" y="320" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcKOvhNjRetM8klerIp9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.787;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="ZcKOvhNjRetM8klerIp9-7" target="sqgrRpTBGOqpiddp0XIJ-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcKOvhNjRetM8klerIp9-7" value="研报结构化模块" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcKOvhNjRetM8klerIp9-8" value="研报概念信息表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=5;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="705" y="310" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcKOvhNjRetM8klerIp9-15" value="热点挖掘模块" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="715" y="210" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcKOvhNjRetM8klerIp9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;endArrow=none;endFill=1;strokeWidth=2;entryX=0.502;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sqgrRpTBGOqpiddp0XIJ-95" target="ZcKOvhNjRetM8klerIp9-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="735.0476190476188" y="170" as="sourcePoint" />
+            <mxPoint x="735.1199999999999" y="308.15" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
