@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T06:04:10.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="JQXzgi6TzNzFv26y7yZC" version="16.4.11" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-28T07:22:54.385Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Zx311aX8vwLafwhExJsi" version="16.4.11" type="github">
   <diagram id="7Q5p1pTKooCTVA2bEMuN" name="第 1 页">
-    <mxGraphModel dx="2377" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1868" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,13 +66,13 @@
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-19" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientDirection=north;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lake_formation;labelBackgroundColor=none;gradientColor=#FFFFFF;strokeColor=#CCCCCC;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="441" y="441" width="59" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=classic;endFill=1;dashed=1;strokeWidth=2;" edge="1" parent="1" source="sqgrRpTBGOqpiddp0XIJ-27" target="sqgrRpTBGOqpiddp0XIJ-38">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=classic;endFill=1;dashed=1;strokeWidth=2;" parent="1" source="sqgrRpTBGOqpiddp0XIJ-27" target="sqgrRpTBGOqpiddp0XIJ-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-27" value="行业研报原数据表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;strokeColor=#A18940;" parent="1" vertex="1">
           <mxGeometry x="441" y="115" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="sqgrRpTBGOqpiddp0XIJ-29" target="ZcKOvhNjRetM8klerIp9-7">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" parent="1" source="sqgrRpTBGOqpiddp0XIJ-29" target="ZcKOvhNjRetM8klerIp9-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-29" value="公司研报原数据表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;strokeColor=#A18940;" parent="1" vertex="1">
@@ -81,7 +81,7 @@
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-35" value="&lt;font style=&quot;font-size: 20px&quot;&gt;DeltaLake&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="645" y="30" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.021;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="sqgrRpTBGOqpiddp0XIJ-38" target="sqgrRpTBGOqpiddp0XIJ-95">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.021;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" parent="1" source="sqgrRpTBGOqpiddp0XIJ-38" target="sqgrRpTBGOqpiddp0XIJ-95" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-38" value="研报结构化模块" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" parent="1" vertex="1">
@@ -108,57 +108,57 @@
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-90" value="&lt;b&gt;Spark Structured Streaming&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="500" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;entryX=0.502;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" edge="1" parent="1" source="ZcKOvhNjRetM8klerIp9-15" target="ZcKOvhNjRetM8klerIp9-8">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;entryX=0.502;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" parent="1" source="ZcKOvhNjRetM8klerIp9-15" target="ZcKOvhNjRetM8klerIp9-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="735" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;exitX=1.083;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZcKOvhNjRetM8klerIp9-8" target="ZcKOvhNjRetM8klerIp9-3">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;exitX=1.083;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ZcKOvhNjRetM8klerIp9-8" target="ZcKOvhNjRetM8klerIp9-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="sqgrRpTBGOqpiddp0XIJ-95" target="ZcKOvhNjRetM8klerIp9-25">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" parent="1" source="sqgrRpTBGOqpiddp0XIJ-95" target="ZcKOvhNjRetM8klerIp9-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-95" value="研报结构化信息表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=5;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="705" y="120" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-2" value="行业概念表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#FFD966;" vertex="1" parent="1">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-2" value="行业概念表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="900" y="340" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-3" value="概念研报索引表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#FFD966;" vertex="1" parent="1">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-3" value="概念研报索引表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="900" y="240" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.787;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="ZcKOvhNjRetM8klerIp9-7" target="sqgrRpTBGOqpiddp0XIJ-95">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.787;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" parent="1" source="ZcKOvhNjRetM8klerIp9-7" target="sqgrRpTBGOqpiddp0XIJ-95" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-7" value="研报结构化模块" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-7" value="研报结构化模块" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="570" y="310" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.568;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="ZcKOvhNjRetM8klerIp9-8" target="ZcKOvhNjRetM8klerIp9-2">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.568;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" parent="1" source="ZcKOvhNjRetM8klerIp9-8" target="ZcKOvhNjRetM8klerIp9-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="ZcKOvhNjRetM8klerIp9-8" target="ZcKOvhNjRetM8klerIp9-25">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" parent="1" source="ZcKOvhNjRetM8klerIp9-8" target="ZcKOvhNjRetM8klerIp9-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-8" value="研报概念信息表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=5;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-8" value="研报概念信息表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=5;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="705" y="310" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-15" value="研报概念识别" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-15" value="研报概念识别" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="715" y="210" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;endArrow=none;endFill=1;strokeWidth=2;entryX=0.502;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sqgrRpTBGOqpiddp0XIJ-95" target="ZcKOvhNjRetM8klerIp9-15">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;endArrow=none;endFill=1;strokeWidth=2;entryX=0.502;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sqgrRpTBGOqpiddp0XIJ-95" target="ZcKOvhNjRetM8klerIp9-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="735.0476190476188" y="170" as="sourcePoint" />
             <mxPoint x="735.1199999999999" y="308.15" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="ZcKOvhNjRetM8klerIp9-25" target="sqgrRpTBGOqpiddp0XIJ-6">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" parent="1" source="ZcKOvhNjRetM8klerIp9-25" target="sqgrRpTBGOqpiddp0XIJ-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-25" value="热度计算" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-25" value="热度计算" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="820" y="135" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZcKOvhNjRetM8klerIp9-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="sqgrRpTBGOqpiddp0XIJ-63" target="sqgrRpTBGOqpiddp0XIJ-63">
+        <mxCell id="ZcKOvhNjRetM8klerIp9-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;fontSize=14;endArrow=classic;endFill=1;strokeWidth=2;" parent="1" source="sqgrRpTBGOqpiddp0XIJ-63" target="sqgrRpTBGOqpiddp0XIJ-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
