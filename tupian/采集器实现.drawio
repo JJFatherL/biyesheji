@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T03:04:17.480Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="16.5.3" etag="8pbo3piNMPaUKNRQFsil" type="github"><diagram id="YaY22ZkgqEt81eUWLnHo">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-07T03:08:01.630Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="AskmLjTtK7g13izy00c1" version="16.5.3" type="github">
+  <diagram id="YaY22ZkgqEt81eUWLnHo" name="第 1 页">
+    <mxGraphModel dx="997" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uHbFfSkzUJROTrvsQGHn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uHbFfSkzUJROTrvsQGHn-4" target="uHbFfSkzUJROTrvsQGHn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHbFfSkzUJROTrvsQGHn-4" value="原始信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHbFfSkzUJROTrvsQGHn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uHbFfSkzUJROTrvsQGHn-5" target="uHbFfSkzUJROTrvsQGHn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHbFfSkzUJROTrvsQGHn-5" value="生成ITEM对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHbFfSkzUJROTrvsQGHn-7" value="PIPELINE处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHbFfSkzUJROTrvsQGHn-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="155" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uHbFfSkzUJROTrvsQGHn-10" value="原文写入数据湖" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="155" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="uHbFfSkzUJROTrvsQGHn-11" value="信息写入消息队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="200" width="100" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
