@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T05:27:07.925Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="16.5.3" etag="iKyvaWZXnyVo0rHLhT_1" type="github"><diagram id="ZuBokGSCKG7P1WRZckf8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-11T05:29:01.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="TmWKaztEHXvGdIVBkfy_" version="16.5.3" type="github">
+  <diagram id="ZuBokGSCKG7P1WRZckf8" name="第 1 页">
+    <mxGraphModel dx="851" dy="315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8kgRumulM-m7q1qhJVr6-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8kgRumulM-m7q1qhJVr6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8kgRumulM-m7q1qhJVr6-2" target="8kgRumulM-m7q1qhJVr6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8kgRumulM-m7q1qhJVr6-2" value="获取研报内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8kgRumulM-m7q1qhJVr6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8kgRumulM-m7q1qhJVr6-4" target="8kgRumulM-m7q1qhJVr6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8kgRumulM-m7q1qhJVr6-4" value="原文保存到对象存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8kgRumulM-m7q1qhJVr6-5" value="研报信息保存到DeltaLake" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8kgRumulM-m7q1qhJVr6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8kgRumulM-m7q1qhJVr6-6" target="8kgRumulM-m7q1qhJVr6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8kgRumulM-m7q1qhJVr6-6" value="消息中间件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="90" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8kgRumulM-m7q1qhJVr6-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8kgRumulM-m7q1qhJVr6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8kgRumulM-m7q1qhJVr6-11" target="8kgRumulM-m7q1qhJVr6-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8kgRumulM-m7q1qhJVr6-11" value="获取研报内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8kgRumulM-m7q1qhJVr6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8kgRumulM-m7q1qhJVr6-12" target="8kgRumulM-m7q1qhJVr6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8kgRumulM-m7q1qhJVr6-12" value="原文保存到对象存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
