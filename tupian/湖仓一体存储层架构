@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T10:22:18.464Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="oJAdcwL4vfipuZrBo0Im" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-22T10:22:34.966Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="5B4Kz9HHMgX6uLISYJ8f" version="16.6.1" type="github">
   <diagram id="7Q5p1pTKooCTVA2bEMuN" name="第 1 页">
     <mxGraphModel dx="2415" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-3" value="公司研报采集器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-40" y="135" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ag-Cb5z3NMjuMw15l2Mz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="sqgrRpTBGOqpiddp0XIJ-6" target="ag-Cb5z3NMjuMw15l2Mz-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sqgrRpTBGOqpiddp0XIJ-6" value="概念热度表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="890" y="230" width="60" height="50" as="geometry" />
