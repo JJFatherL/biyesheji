@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T09:48:11.557Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="KC-ou8YVxOe1Ghs9nXNe" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-23T09:49:07.272Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="6at1YA-7CS9ozFFl8FiD" version="16.5.6" type="github">
   <diagram id="95z-qrqqboMp4NwA8BHQ" name="第 1 页">
     <mxGraphModel dx="875" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -54,14 +54,10 @@
         <mxCell id="ABsbMxeRY0RdO0rx8DXy-13" value="用户配置信息" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="445" y="91.5" width="50" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="pYKV0XRQ8U9X0RwRw-pl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ABsbMxeRY0RdO0rx8DXy-17" target="ABsbMxeRY0RdO0rx8DXy-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ABsbMxeRY0RdO0rx8DXy-17" value="存储层&#xa;查询模块" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="465" y="207.5" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="pYKV0XRQ8U9X0RwRw-pl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="pYKV0XRQ8U9X0RwRw-pl-2" target="ABsbMxeRY0RdO0rx8DXy-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="pYKV0XRQ8U9X0RwRw-pl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pYKV0XRQ8U9X0RwRw-pl-2" target="pYKV0XRQ8U9X0RwRw-pl-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pYKV0XRQ8U9X0RwRw-pl-2" value="Redis缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="120" width="90" height="60" as="geometry" />
@@ -71,6 +67,12 @@
         </mxCell>
         <mxCell id="pYKV0XRQ8U9X0RwRw-pl-6" value="DeltaLake" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="197.5" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pYKV0XRQ8U9X0RwRw-pl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="pYKV0XRQ8U9X0RwRw-pl-10" target="ABsbMxeRY0RdO0rx8DXy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYKV0XRQ8U9X0RwRw-pl-10" value="存储层查询模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="197.5" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
