@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T06:22:19.092Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="EOuepKKzzKp_XXdr-_We" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-23T06:23:11.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="iDpHGsR8gWPLjtGp7B6B" version="16.5.6" type="github">
   <diagram id="m7ykKMguCv_zMnbDmOIA" name="第 1 页">
     <mxGraphModel dx="875" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,8 +16,22 @@
         <mxCell id="2YlMVlzXzQUb3xdYXMuv-2" value="匹配概念词表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="150" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="2YlMVlzXzQUb3xdYXMuv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2YlMVlzXzQUb3xdYXMuv-3" target="2YlMVlzXzQUb3xdYXMuv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2YlMVlzXzQUb3xdYXMuv-9" value="更新" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2YlMVlzXzQUb3xdYXMuv-7">
+          <mxGeometry x="0.4" relative="1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2YlMVlzXzQUb3xdYXMuv-3" value="命名实体识别" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2YlMVlzXzQUb3xdYXMuv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="2YlMVlzXzQUb3xdYXMuv-6" target="2YlMVlzXzQUb3xdYXMuv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2YlMVlzXzQUb3xdYXMuv-6" value="概念词表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
