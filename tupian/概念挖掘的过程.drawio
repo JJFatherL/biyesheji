@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T12:52:36.053Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="mTZB1WUy-fuyY4hWE0O-" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T13:02:42.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ICUJfFkfGuHpbUY8qPI0" version="17.1.2" type="github">
   <diagram id="m7ykKMguCv_zMnbDmOIA" name="第 1 页">
-    <mxGraphModel dx="1211" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1211" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
         <mxCell id="D2Xz5EvzUNjefKfJszK5-10" value="输出概念列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D2Xz5EvzUNjefKfJszK5-13" value="输出概念列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D2Xz5EvzUNjefKfJszK5-13" value="输出到停用词表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
