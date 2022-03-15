@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T09:35:37.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="kkdwcbOHSFDkZJ74tq9e" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-15T09:53:12.483Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="A8QB5JkeFPoV78aOt1dm" version="17.1.2" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="1375" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -143,16 +143,16 @@
           <mxGeometry x="240" y="460" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OcvaA2KFabYVuzhETYF6-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1280" y="550" width="90" height="590" as="geometry" />
+          <mxGeometry x="1280" y="300" width="90" height="840" as="geometry" />
         </mxCell>
         <mxCell id="OcvaA2KFabYVuzhETYF6-33" value="数据维护管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="1295" y="590" width="60" height="30" as="geometry" />
+          <mxGeometry x="1295" y="340" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OcvaA2KFabYVuzhETYF6-34" value="模型更新" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1305" y="710" width="40" height="130" as="geometry" />
+          <mxGeometry x="1305" y="410" width="40" height="130" as="geometry" />
         </mxCell>
         <mxCell id="OcvaA2KFabYVuzhETYF6-35" value="数据源管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1305" y="905" width="40" height="130" as="geometry" />
+          <mxGeometry x="1305" y="570" width="40" height="130" as="geometry" />
         </mxCell>
         <mxCell id="OcvaA2KFabYVuzhETYF6-38" value="" style="endArrow=none;startArrow=classic;html=1;rounded=0;fontSize=20;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" parent="1" source="9pgcuo744WiCNAEBG44h-13" target="OcvaA2KFabYVuzhETYF6-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -160,11 +160,17 @@
             <mxPoint x="790" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OcvaA2KFabYVuzhETYF6-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=20;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="9pgcuo744WiCNAEBG44h-3" target="OcvaA2KFabYVuzhETYF6-32" edge="1">
+        <mxCell id="OcvaA2KFabYVuzhETYF6-39" value="" style="endArrow=none;startArrow=classic;html=1;rounded=0;fontSize=20;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" parent="1" source="9pgcuo744WiCNAEBG44h-3" target="OcvaA2KFabYVuzhETYF6-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1260" y="680" as="sourcePoint" />
             <mxPoint x="1310" y="855" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="echhxm4KHpWINalpdEYC-2" value="启动采集任务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="730" width="40" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="echhxm4KHpWINalpdEYC-3" value="更新热度值" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="910" width="40" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
