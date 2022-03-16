@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T09:28:35.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="mwNL4W76oggmmD6BDadr" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T09:29:30.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="7Jgkq_mVWFz31FOLLBvZ" version="17.1.2" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="1506" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -71,13 +71,23 @@
           <mxGeometry x="990" y="920" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OcvaA2KFabYVuzhETYF6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=20;strokeWidth=1;dashed=1;" parent="1" source="9pgcuo744WiCNAEBG44h-27" target="9pgcuo744WiCNAEBG44h-21" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="870" />
+              <mxPoint x="540" y="870" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9pgcuo744WiCNAEBG44h-27" value="&lt;span style=&quot;font-size: 24px&quot;&gt;研报结构化模块&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="160" y="700" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OcvaA2KFabYVuzhETYF6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=20;strokeWidth=1;" parent="1" source="9pgcuo744WiCNAEBG44h-28" target="9pgcuo744WiCNAEBG44h-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="870" />
+              <mxPoint x="840" y="870" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9pgcuo744WiCNAEBG44h-28" value="&lt;span style=&quot;font-size: 24px&quot;&gt;热点挖掘模块&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="420" y="700" width="230" height="60" as="geometry" />
@@ -128,7 +138,12 @@
           <mxGeometry x="460" y="1060" width="760" height="45" as="geometry" />
         </mxCell>
         <mxCell id="OcvaA2KFabYVuzhETYF6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=20;strokeWidth=1;" parent="1" source="OcvaA2KFabYVuzhETYF6-15" target="9pgcuo744WiCNAEBG44h-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="785" y="870" />
+              <mxPoint x="840" y="870" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OcvaA2KFabYVuzhETYF6-15" value="&lt;span style=&quot;font-size: 24px&quot;&gt;热度计算模块&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="670" y="700" width="230" height="60" as="geometry" />
@@ -174,6 +189,9 @@
         </mxCell>
         <mxCell id="echhxm4KHpWINalpdEYC-3" value="更新热度值" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1305" y="910" width="40" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="echhxm4KHpWINalpdEYC-5" value="&lt;span style=&quot;font-size: 24px&quot;&gt;标签引擎&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="620" width="740" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
