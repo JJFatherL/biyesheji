@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T10:54:27.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="vjcirwkWeBCAM_4TaUz7" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T11:16:17.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="lPOg4jTvOwoGsb_67qPi" version="17.1.2" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="1506" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -136,8 +136,17 @@
         <mxCell id="echhxm4KHpWINalpdEYC-21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="630" width="310" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="echhxm4KHpWINalpdEYC-20" value="标签引擎" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="echhxm4KHpWINalpdEYC-20" value="应用层查询模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="860" y="630" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="echhxm4KHpWINalpdEYC-22" value="&lt;span style=&quot;font-size: 15px&quot;&gt;标签管理模块&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="525" y="680" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="echhxm4KHpWINalpdEYC-23" value="&lt;span style=&quot;font-size: 15px&quot;&gt;流计算生成模块&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="680" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="echhxm4KHpWINalpdEYC-24" value="&lt;span style=&quot;font-size: 15px&quot;&gt;对象记录查询模块&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="525" y="730" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
