@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T08:55:14.988Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="NklIQOJm-NrkZO3vc6iq" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T09:20:03.260Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="U0Zoo7pZoOZ0pIeEZ0wZ" version="17.1.2" type="github">
   <diagram id="N5IIPlqEorlz9_dJOObR" name="Page-1">
     <mxGraphModel dx="1126" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,12 +43,15 @@
         </mxCell>
         <mxCell id="8PDwgz84oM8eaDjoXUcE-15" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="499.5" as="sourcePoint" />
-            <mxPoint x="720" y="499.90999999999985" as="targetPoint" />
+            <mxPoint x="750" y="499.5" as="sourcePoint" />
+            <mxPoint x="790" y="499.90999999999985" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="500" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="8PDwgz84oM8eaDjoXUcE-16" value="&lt;b&gt;Spark Structured Streaming&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="710" y="490" width="170" height="20" as="geometry" />
+          <mxGeometry x="790" y="490" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8PDwgz84oM8eaDjoXUcE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;dashed=1;strokeWidth=2;" parent="1" source="8PDwgz84oM8eaDjoXUcE-19" target="8PDwgz84oM8eaDjoXUcE-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -109,11 +112,23 @@
         <mxCell id="nrMTHtK2D5ZiTl-ygLw8-2" value="标签对象记录索引表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#FFD966;" vertex="1" parent="1">
           <mxGeometry x="730" y="260" width="60" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="nrMTHtK2D5ZiTl-ygLw8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=1;" edge="1" parent="1" source="nrMTHtK2D5ZiTl-ygLw8-3" target="nrMTHtK2D5ZiTl-ygLw8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nrMTHtK2D5ZiTl-ygLw8-3" value="标签信息表" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#FFD966;" vertex="1" parent="1">
-          <mxGeometry x="730" y="360" width="60" height="50" as="geometry" />
+          <mxGeometry x="730" y="375" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nrMTHtK2D5ZiTl-ygLw8-5" value="&lt;b&gt;&lt;u&gt;5&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="690" y="265" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nrMTHtK2D5ZiTl-ygLw8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeWidth=1;" edge="1" parent="1" source="nrMTHtK2D5ZiTl-ygLw8-7" target="8PDwgz84oM8eaDjoXUcE-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nrMTHtK2D5ZiTl-ygLw8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;dashed=1;strokeWidth=1;" edge="1" parent="1" source="nrMTHtK2D5ZiTl-ygLw8-7" target="nrMTHtK2D5ZiTl-ygLw8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nrMTHtK2D5ZiTl-ygLw8-7" value="流处理生成模块" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/540_Build_design_develop_sketch_tools_game_design_development-128.png;strokeColor=#66B2FF;strokeWidth=2;fillColor=none;gradientColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="670" y="340" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
