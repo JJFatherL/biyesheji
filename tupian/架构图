@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T13:01:15.274Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="sAUXtbfQGbtQWY_LQPId" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T13:03:57.657Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="eaUyphLH45uu3sxI83bk" version="17.1.2" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="1506" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -73,11 +73,8 @@
         <mxCell id="9pgcuo744WiCNAEBG44h-28" value="&lt;font style=&quot;font-size: 15px&quot;&gt;热点挖掘模块&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="350" y="680" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9pgcuo744WiCNAEBG44h-32" value="&lt;span style=&quot;font-size: 24px&quot;&gt;订阅行业管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="175" y="380" width="230" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="9pgcuo744WiCNAEBG44h-33" value="&lt;span style=&quot;font-size: 24px&quot;&gt;机构权重管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="695" y="460" width="230" height="60" as="geometry" />
+          <mxGeometry x="570" y="460" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OcvaA2KFabYVuzhETYF6-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="OcvaA2KFabYVuzhETYF6-4" target="9pgcuo744WiCNAEBG44h-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -113,16 +110,16 @@
           <mxGeometry x="695" y="380" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OcvaA2KFabYVuzhETYF6-23" value="&lt;span style=&quot;font-size: 24px&quot;&gt;研报查询阅读&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="435" y="460" width="230" height="60" as="geometry" />
+          <mxGeometry x="960" y="380" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OcvaA2KFabYVuzhETYF6-24" value="&lt;span style=&quot;font-size: 24px&quot;&gt;概念词管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="175" y="460" width="230" height="60" as="geometry" />
+          <mxGeometry x="175" y="380" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="echhxm4KHpWINalpdEYC-11" value="&lt;span style=&quot;font-size: 24px&quot;&gt;低代码标签管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="960" y="460" width="230" height="60" as="geometry" />
+          <mxGeometry x="840" y="460" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="echhxm4KHpWINalpdEYC-12" value="&lt;span style=&quot;font-size: 24px&quot;&gt;账户管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="960" y="380" width="230" height="60" as="geometry" />
+          <mxGeometry x="305" y="460" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="echhxm4KHpWINalpdEYC-17" value="场景自定义功能" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="190" y="630" width="310" height="30" as="geometry" />
