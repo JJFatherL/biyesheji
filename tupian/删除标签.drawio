@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-20T11:20:02.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="3l-68UUm4jTpjbLCdrTI" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-20T11:29:09.643Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="E1V3ypFZL9bQBa2ggvxV" version="17.1.2" type="github">
   <diagram id="rIKkfBxgLlrVTZ_LQ07b" name="第 1 页">
     <mxGraphModel dx="941" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="c7KAloCTt9Q1xToajf8--6" value="应用层前端" style="swimlane;startSize=20;" vertex="1" parent="c7KAloCTt9Q1xToajf8--5">
           <mxGeometry y="20" width="130" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="c7KAloCTt9Q1xToajf8--7" value="添加概念词/标签添加请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--6">
+        <mxCell id="c7KAloCTt9Q1xToajf8--7" value="标签删除请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--6">
           <mxGeometry x="25" y="40" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c7KAloCTt9Q1xToajf8--8" value="返货错误信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--6">
