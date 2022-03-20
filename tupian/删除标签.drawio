@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-20T11:29:09.643Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="E1V3ypFZL9bQBa2ggvxV" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-20T11:30:58.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ZLkWXM0NPZ82CzZn6rNT" version="17.1.2" type="github">
   <diagram id="rIKkfBxgLlrVTZ_LQ07b" name="第 1 页">
     <mxGraphModel dx="941" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="c7KAloCTt9Q1xToajf8--7" value="标签删除请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--6">
           <mxGeometry x="25" y="40" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="c7KAloCTt9Q1xToajf8--8" value="返货错误信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--6">
+        <mxCell id="c7KAloCTt9Q1xToajf8--8" value="返回错误信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--6">
           <mxGeometry x="25" y="320" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c7KAloCTt9Q1xToajf8--9" value="返回添加成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--6">
@@ -34,7 +34,7 @@
         <mxCell id="c7KAloCTt9Q1xToajf8--14" value="判断参数合法" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--10">
           <mxGeometry x="35" y="90" width="75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c7KAloCTt9Q1xToajf8--15" value="调用标签引擎新增标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--10">
+        <mxCell id="c7KAloCTt9Q1xToajf8--15" value="调用标签引擎删除标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--10">
           <mxGeometry x="32.5" y="180" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c7KAloCTt9Q1xToajf8--16" value="标签引擎管理模块" style="swimlane;startSize=20;" vertex="1" parent="c7KAloCTt9Q1xToajf8--5">
@@ -94,10 +94,10 @@
         <mxCell id="c7KAloCTt9Q1xToajf8--31" value="湖仓一体存储层" style="swimlane;startSize=20;" vertex="1" parent="c7KAloCTt9Q1xToajf8--5">
           <mxGeometry x="520" y="20" width="120" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="c7KAloCTt9Q1xToajf8--32" value="添加组合标签到标签信息表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--31">
+        <mxCell id="c7KAloCTt9Q1xToajf8--32" value="删除组合标签到标签信息表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--31">
           <mxGeometry x="20" y="180" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="c7KAloCTt9Q1xToajf8--33" value="添加标签信息到标签信息表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--31">
+        <mxCell id="c7KAloCTt9Q1xToajf8--33" value="删除标签信息到标签信息表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="c7KAloCTt9Q1xToajf8--31">
           <mxGeometry x="20" y="320" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c7KAloCTt9Q1xToajf8--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="c7KAloCTt9Q1xToajf8--5" source="c7KAloCTt9Q1xToajf8--18" target="c7KAloCTt9Q1xToajf8--32">
