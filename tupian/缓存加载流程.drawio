@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T05:12:37.405Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="KHLtQgAKon-Se8zJaO1G" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T05:30:35.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="sQ_bfnln-odLKUFRueCf" version="17.1.2" type="github">
   <diagram id="s_FnStZ6lYs9shnKex69" name="第 1 页">
     <mxGraphModel dx="749" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="KmVPU4ovcuLw7qfWmrZJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KmVPU4ovcuLw7qfWmrZJ-3" target="KmVPU4ovcuLw7qfWmrZJ-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-3" value="获取所有标签信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-3" value="从deltalake获取所有标签信息，加载热度值计算表和机构权重表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KmVPU4ovcuLw7qfWmrZJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KmVPU4ovcuLw7qfWmrZJ-5" target="KmVPU4ovcuLw7qfWmrZJ-7">
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="KmVPU4ovcuLw7qfWmrZJ-5" value="筛选出class为行业的标签信息，写入到缓存1中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KmVPU4ovcuLw7qfWmrZJ-7" target="KmVPU4ovcuLw7qfWmrZJ-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KmVPU4ovcuLw7qfWmrZJ-7" value="遍历行业标签，获取parentID为该行业的标签信息，写入到缓存2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="170" width="120" height="60" as="geometry" />
@@ -31,11 +34,68 @@
         <mxCell id="KmVPU4ovcuLw7qfWmrZJ-8" value="清空系统所有缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-13" value="获取parentID为空的标签构建树形标签信息的根结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KmVPU4ovcuLw7qfWmrZJ-14" target="KmVPU4ovcuLw7qfWmrZJ-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-14" value="获取parentID为空的标签构建树形标签信息的根结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="70" width="120" height="60" as="geometry" />
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-14" value="遍历标签信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KmVPU4ovcuLw7qfWmrZJ-24" target="KmVPU4ovcuLw7qfWmrZJ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-24" value="添加节点信息到树形json" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KmVPU4ovcuLw7qfWmrZJ-27" target="KmVPU4ovcuLw7qfWmrZJ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-31" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KmVPU4ovcuLw7qfWmrZJ-30">
+          <mxGeometry x="-0.3333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KmVPU4ovcuLw7qfWmrZJ-27" target="KmVPU4ovcuLw7qfWmrZJ-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="225" />
+              <mxPoint x="680" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-27" value="class是否为概念" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KmVPU4ovcuLw7qfWmrZJ-29" target="KmVPU4ovcuLw7qfWmrZJ-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="300" />
+              <mxPoint x="680" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-29" value="计算热度值信息，写入缓存3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KmVPU4ovcuLw7qfWmrZJ-32" target="KmVPU4ovcuLw7qfWmrZJ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-32" value="标签信息写入到缓存5" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KmVPU4ovcuLw7qfWmrZJ-35" target="KmVPU4ovcuLw7qfWmrZJ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-35" value="根据报告索引获取报告信息写入缓存4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KmVPU4ovcuLw7qfWmrZJ-37" target="KmVPU4ovcuLw7qfWmrZJ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-37" value="遍历结束将树形Json结果写入到缓存6" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="205" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KmVPU4ovcuLw7qfWmrZJ-39" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="270" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
