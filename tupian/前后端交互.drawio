@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T03:12:35.987Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" version="17.2.3" etag="FiqZBdrZUXRM3fZ7l680" type="github"><diagram id="SutuU4O2ehbbUhdFzhPI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-26T03:22:10.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="QTAF-6Can8ls9el-GtXq" version="17.2.3" type="github">
+  <diagram id="SutuU4O2ehbbUhdFzhPI" name="第 1 页">
+    <mxGraphModel dx="946" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="URj0abbctH1mQ-Ql0Kna-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="URj0abbctH1mQ-Ql0Kna-3" value="前端界面" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URj0abbctH1mQ-Ql0Kna-4" value="后端服务" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URj0abbctH1mQ-Ql0Kna-5" value="应用层查询模块" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URj0abbctH1mQ-Ql0Kna-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="URj0abbctH1mQ-Ql0Kna-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="250" y="150" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="URj0abbctH1mQ-Ql0Kna-13" value="输入查询信息" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;exitX=0.9;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="URj0abbctH1mQ-Ql0Kna-12" parent="1" source="URj0abbctH1mQ-Ql0Kna-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URj0abbctH1mQ-Ql0Kna-15" value="发送Post请求" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;entryX=0.1;entryY=0.18;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="URj0abbctH1mQ-Ql0Kna-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139" y="178" as="sourcePoint" />
+            <mxPoint x="401" y="152.60000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
