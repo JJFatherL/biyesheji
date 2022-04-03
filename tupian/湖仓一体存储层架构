@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-03T08:36:32.785Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="vJOCULps3Ob9zb6NCQRE" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-03T08:38:31.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="OOt5_2eaLu0jgfMTQEuA" version="17.2.4" type="github">
   <diagram id="7Q5p1pTKooCTVA2bEMuN" name="第 1 页">
     <mxGraphModel dx="1017" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -120,16 +120,11 @@
         <mxCell id="zVmTFBS8vSLWIouLqLOa-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;strokeWidth=2;dashed=1;" parent="1" source="zVmTFBS8vSLWIouLqLOa-59" target="zVmTFBS8vSLWIouLqLOa-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zVmTFBS8vSLWIouLqLOa-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeWidth=2;" parent="1" source="zVmTFBS8vSLWIouLqLOa-59" target="zVmTFBS8vSLWIouLqLOa-73" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="790" y="135" />
-              <mxPoint x="790" y="232" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zVmTFBS8vSLWIouLqLOa-59" value="&lt;font style=&quot;font-size: 14px&quot;&gt;研报信息表&lt;/font&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=5;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="600" y="110" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jIx-7c0FdW-YUjcpBxvk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeWidth=1;" edge="1" parent="1" source="zVmTFBS8vSLWIouLqLOa-60" target="zVmTFBS8vSLWIouLqLOa-73">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zVmTFBS8vSLWIouLqLOa-60" value="&lt;font style=&quot;font-size: 14px&quot;&gt;对象记录标签索引表&lt;/font&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;shape=mxgraph.ios7.icons.data;strokeColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="870" y="110" width="60" height="50" as="geometry" />
